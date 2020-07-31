@@ -13,6 +13,11 @@ This function should pass raw data like temperature inside another handler funct
 MQTT format. 
 3. MQTT sender. Sends an MQTT message to the MQTT Broker.
 
+##Update
+1. Make slots mechanism for sensors. Needs to register any number of 
+different sensors (in real-time as well) 
+2. Mechanism for non blocking interconnection with MQTT Broker
+
 ##TODO
 This is just a start-from-scratch design. It will be changed significantly in the future.
 
